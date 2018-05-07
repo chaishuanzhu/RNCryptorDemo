@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FC12D3D0374CAC8E9909ECAFD22C2E /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F95572A9B4EB85564A5D9571976D1F2 /* RNCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1273B95A2142B2D2B8A5E8D60FEB321F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */; };
+		1FA3704EFB829E4E1FD3DA00B17CA17A /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DDDD6259505C41451E173458EBF3DE1 /* RNCryptor+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28C78D5BF12B882FC6121BCE2F33A9AE /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B919491992A5636B485414194FD3C0 /* RNCryptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3438797624876DC038035DB4C139623B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		41A4BCBCB51DA3646107CF7F735DAFAB /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C93F351648A950A2D5B2BBE10E5BD /* RNDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6A9D15CE4DEBFEB3E4739AFE85ECEBBA /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E67339908E20820B18D7155044DD38 /* RNCryptorEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B0B76C1302EC8A19A6E4C83D3D38E09 /* RNCryptor-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3C09945AE1F134C0BACDF433FD91AB /* RNCryptor-objc-dummy.m */; };
+		9282381D3BD7FE6D7FC4B605BDF10491 /* Pods-RNCryptorDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 898CD33F1B3D8533F430A724C49696B7 /* Pods-RNCryptorDemo-dummy.m */; };
+		9282634515FEC54C7787F79D5D5130AC /* Pods-RNCryptorDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 359288945EEE3E8427B3C7D9BE6E7D5E /* Pods-RNCryptorDemoUITests-dummy.m */; };
+		BFDEFF6C3036E5E1E59406633722A5C5 /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9CCC345D1F4ABF3613607FFF398A6E /* RNDecryptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C634117E18F047C9C8A4CF3ACBB1AA12 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C57A9EBE9BD3EAB61060DFD27E114 /* RNCryptorEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CB0E3184E22F037DBDDDA1618B4FCBCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		D3F0D3CDF5A47EC6D1A2BE3EA792D5E8 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0376550E30F66F73C77A4552E0FCAB /* RNEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E84FE2B7AF3C72AE9D4F7782D597E5FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		F79334035769B93C89D26377E47CCC50 /* Pods-RNCryptorDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D10431556C6C1AFC4937E4DBEFB138 /* Pods-RNCryptorDemoTests-dummy.m */; };
+		F7D4FABED56F79C6717FD2F5851B1E09 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = A62A247CE57BB9CA21519A3CDB1F1DA5 /* RNEncryptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF33B289E2CC817E666CD9245630B9D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20979B3DABE47A5AC1598673B75D73C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEEE436BA3962D6F7246977E53AC368A;
+			remoteInfo = "Pods-RNCryptorDemo";
+		};
+		3D1D556B7191E82A6DB99174DE28E0CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33594155F6D80E12C17C13D73B675DCF;
+			remoteInfo = "RNCryptor-objc";
+		};
+		FADA4D07C5926A20621BAC53EF26E104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEEE436BA3962D6F7246977E53AC368A;
+			remoteInfo = "Pods-RNCryptorDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C339774ECB9D8A46B2D412350A6ED16 /* RNCryptor-objc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-objc-prefix.pch"; sourceTree = "<group>"; };
+		0CAB5F291EADA0DA2D8BB2C7B1F45D92 /* Pods-RNCryptorDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNCryptorDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F0376550E30F66F73C77A4552E0FCAB /* RNEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNEncryptor.m; path = RNCryptor/RNEncryptor.m; sourceTree = "<group>"; };
+		11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		11CA1E6886472E414750EFD4023FD8C4 /* Pods-RNCryptorDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNCryptorDemo-frameworks.sh"; sourceTree = "<group>"; };
+		16FCEE6F2A55A2149CA4A122C7DA75FA /* Pods-RNCryptorDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNCryptorDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C069B36BB323A4503F98D5FCE1FA175 /* Pods-RNCryptorDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNCryptorDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F95572A9B4EB85564A5D9571976D1F2 /* RNCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptor.m; path = RNCryptor/RNCryptor.m; sourceTree = "<group>"; };
+		202747A4AB7D6725903FAEE9E2F55543 /* libRNCryptor-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libRNCryptor-objc.a"; path = "libRNCryptor-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E67339908E20820B18D7155044DD38 /* RNCryptorEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptorEngine.h; path = RNCryptor/RNCryptorEngine.h; sourceTree = "<group>"; };
+		359288945EEE3E8427B3C7D9BE6E7D5E /* Pods-RNCryptorDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNCryptorDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		3AAE93847C907996FBBFBD9D990F96EC /* libPods-RNCryptorDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RNCryptorDemoTests.a"; path = "libPods-RNCryptorDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC4FF3F48C0855045A111B9856B928A /* Pods-RNCryptorDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNCryptorDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43E03B5155E9D1132EB5EB7630BB3D7D /* Pods-RNCryptorDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNCryptorDemo-resources.sh"; sourceTree = "<group>"; };
+		4F3C09945AE1F134C0BACDF433FD91AB /* RNCryptor-objc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNCryptor-objc-dummy.m"; sourceTree = "<group>"; };
+		5B5C93F351648A950A2D5B2BBE10E5BD /* RNDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNDecryptor.m; path = RNCryptor/RNDecryptor.m; sourceTree = "<group>"; };
+		5DDDD6259505C41451E173458EBF3DE1 /* RNCryptor+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RNCryptor+Private.h"; path = "RNCryptor/RNCryptor+Private.h"; sourceTree = "<group>"; };
+		63DCBFAECC5EAB7F12CBD9962B0471F2 /* Pods-RNCryptorDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNCryptorDemoTests-resources.sh"; sourceTree = "<group>"; };
+		6D58186D080DCB42F58392737BBDA24F /* Pods-RNCryptorDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNCryptorDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		713B5E3DA491A707E589D5A72D9FC05C /* Pods-RNCryptorDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNCryptorDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		769B2DDEDE63BC15DC952BA3DD6DE0C4 /* Pods-RNCryptorDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNCryptorDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BA5AD6890703B74739EBE98D10EE384 /* Pods-RNCryptorDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNCryptorDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		81B919491992A5636B485414194FD3C0 /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = RNCryptor/RNCryptor.h; sourceTree = "<group>"; };
+		898CD33F1B3D8533F430A724C49696B7 /* Pods-RNCryptorDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNCryptorDemo-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93FE31F5966AF2149D4170B2A0C4488D /* libPods-RNCryptorDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RNCryptorDemoUITests.a"; path = "libPods-RNCryptorDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CB4E5C69959F0C2E8755CC84097D6C /* Pods-RNCryptorDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNCryptorDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A62A247CE57BB9CA21519A3CDB1F1DA5 /* RNEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNEncryptor.h; path = RNCryptor/RNEncryptor.h; sourceTree = "<group>"; };
+		A6E6F957D89CDF53F95850434DE8EB21 /* Pods-RNCryptorDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNCryptorDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B5BAC93E2400790F2AD013419590FEC6 /* Pods-RNCryptorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNCryptorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B997F89226E599D8D6693B3E13FC0794 /* RNCryptor-objc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RNCryptor-objc.xcconfig"; sourceTree = "<group>"; };
+		BD0F175C7AA444901FBA787F1DE2E244 /* Pods-RNCryptorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNCryptorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C0332401C8DFB4C854B59CC0856BC417 /* libPods-RNCryptorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RNCryptorDemo.a"; path = "libPods-RNCryptorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		D80A3AB8FCC781E8C3D1FD5DE7E1CF32 /* Pods-RNCryptorDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNCryptorDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC32289921DA9BA5B5556FCE353FD722 /* Pods-RNCryptorDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNCryptorDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0D10431556C6C1AFC4937E4DBEFB138 /* Pods-RNCryptorDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNCryptorDemoTests-dummy.m"; sourceTree = "<group>"; };
+		EF0C57A9EBE9BD3EAB61060DFD27E114 /* RNCryptorEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptorEngine.m; path = RNCryptor/RNCryptorEngine.m; sourceTree = "<group>"; };
+		FA548059AEBAEA6680F4C607D96A3EA5 /* Pods-RNCryptorDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNCryptorDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		FC9CCC345D1F4ABF3613607FFF398A6E /* RNDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNDecryptor.h; path = RNCryptor/RNDecryptor.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15EB2510BCB8BD9A1DB1F8BE0CAB944F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3438797624876DC038035DB4C139623B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD549733EC1468136BF620DD6AD9502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF33B289E2CC817E666CD9245630B9D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940601220C97A09292F1C913053B46BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84FE2B7AF3C72AE9D4F7782D597E5FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9601F13B49935837284A7E51EBC915E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0E3184E22F037DBDDDA1618B4FCBCB /* Foundation.framework in Frameworks */,
+				1273B95A2142B2D2B8A5E8D60FEB321F /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B6055D810F73C3AF2FCFEF6A893812 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5906F0C2E656B0FED3BF14412057B4CC /* Pods-RNCryptorDemo */,
+				10948F3E712C4EC36D2B21BAD85F65EF /* Pods-RNCryptorDemoTests */,
+				A5F8B32FC7C426EB4383DCC1453F4EBE /* Pods-RNCryptorDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		10948F3E712C4EC36D2B21BAD85F65EF /* Pods-RNCryptorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C069B36BB323A4503F98D5FCE1FA175 /* Pods-RNCryptorDemoTests-acknowledgements.markdown */,
+				713B5E3DA491A707E589D5A72D9FC05C /* Pods-RNCryptorDemoTests-acknowledgements.plist */,
+				E0D10431556C6C1AFC4937E4DBEFB138 /* Pods-RNCryptorDemoTests-dummy.m */,
+				7BA5AD6890703B74739EBE98D10EE384 /* Pods-RNCryptorDemoTests-frameworks.sh */,
+				63DCBFAECC5EAB7F12CBD9962B0471F2 /* Pods-RNCryptorDemoTests-resources.sh */,
+				A5CB4E5C69959F0C2E8755CC84097D6C /* Pods-RNCryptorDemoTests.debug.xcconfig */,
+				6D58186D080DCB42F58392737BBDA24F /* Pods-RNCryptorDemoTests.release.xcconfig */,
+			);
+			name = "Pods-RNCryptorDemoTests";
+			path = "Target Support Files/Pods-RNCryptorDemoTests";
+			sourceTree = "<group>";
+		};
+		318E55BF7CCDC52AE3FF6FDDF09A8BE0 /* RNCryptor-objc */ = {
+			isa = PBXGroup;
+			children = (
+				81B919491992A5636B485414194FD3C0 /* RNCryptor.h */,
+				1F95572A9B4EB85564A5D9571976D1F2 /* RNCryptor.m */,
+				5DDDD6259505C41451E173458EBF3DE1 /* RNCryptor+Private.h */,
+				34E67339908E20820B18D7155044DD38 /* RNCryptorEngine.h */,
+				EF0C57A9EBE9BD3EAB61060DFD27E114 /* RNCryptorEngine.m */,
+				FC9CCC345D1F4ABF3613607FFF398A6E /* RNDecryptor.h */,
+				5B5C93F351648A950A2D5B2BBE10E5BD /* RNDecryptor.m */,
+				A62A247CE57BB9CA21519A3CDB1F1DA5 /* RNEncryptor.h */,
+				0F0376550E30F66F73C77A4552E0FCAB /* RNEncryptor.m */,
+				32BA94C8902D0BF56FA42FE2C1BCC34F /* Support Files */,
+			);
+			name = "RNCryptor-objc";
+			path = "RNCryptor-objc";
+			sourceTree = "<group>";
+		};
+		32BA94C8902D0BF56FA42FE2C1BCC34F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B997F89226E599D8D6693B3E13FC0794 /* RNCryptor-objc.xcconfig */,
+				4F3C09945AE1F134C0BACDF433FD91AB /* RNCryptor-objc-dummy.m */,
+				0C339774ECB9D8A46B2D412350A6ED16 /* RNCryptor-objc-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RNCryptor-objc";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F990579C2E52276FD3C28227B49D60B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F990579C2E52276FD3C28227B49D60B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */,
+				C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5906F0C2E656B0FED3BF14412057B4CC /* Pods-RNCryptorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				16FCEE6F2A55A2149CA4A122C7DA75FA /* Pods-RNCryptorDemo-acknowledgements.markdown */,
+				769B2DDEDE63BC15DC952BA3DD6DE0C4 /* Pods-RNCryptorDemo-acknowledgements.plist */,
+				898CD33F1B3D8533F430A724C49696B7 /* Pods-RNCryptorDemo-dummy.m */,
+				11CA1E6886472E414750EFD4023FD8C4 /* Pods-RNCryptorDemo-frameworks.sh */,
+				43E03B5155E9D1132EB5EB7630BB3D7D /* Pods-RNCryptorDemo-resources.sh */,
+				BD0F175C7AA444901FBA787F1DE2E244 /* Pods-RNCryptorDemo.debug.xcconfig */,
+				B5BAC93E2400790F2AD013419590FEC6 /* Pods-RNCryptorDemo.release.xcconfig */,
+			);
+			name = "Pods-RNCryptorDemo";
+			path = "Target Support Files/Pods-RNCryptorDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E6A1441FD1E13E926EADF9F0330C42C0 /* Pods */,
+				F88C70E650995DA1D6145349426F52F2 /* Products */,
+				04B6055D810F73C3AF2FCFEF6A893812 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F8B32FC7C426EB4383DCC1453F4EBE /* Pods-RNCryptorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AC4FF3F48C0855045A111B9856B928A /* Pods-RNCryptorDemoUITests-acknowledgements.markdown */,
+				D80A3AB8FCC781E8C3D1FD5DE7E1CF32 /* Pods-RNCryptorDemoUITests-acknowledgements.plist */,
+				359288945EEE3E8427B3C7D9BE6E7D5E /* Pods-RNCryptorDemoUITests-dummy.m */,
+				A6E6F957D89CDF53F95850434DE8EB21 /* Pods-RNCryptorDemoUITests-frameworks.sh */,
+				FA548059AEBAEA6680F4C607D96A3EA5 /* Pods-RNCryptorDemoUITests-resources.sh */,
+				DC32289921DA9BA5B5556FCE353FD722 /* Pods-RNCryptorDemoUITests.debug.xcconfig */,
+				0CAB5F291EADA0DA2D8BB2C7B1F45D92 /* Pods-RNCryptorDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-RNCryptorDemoUITests";
+			path = "Target Support Files/Pods-RNCryptorDemoUITests";
+			sourceTree = "<group>";
+		};
+		E6A1441FD1E13E926EADF9F0330C42C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				318E55BF7CCDC52AE3FF6FDDF09A8BE0 /* RNCryptor-objc */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F88C70E650995DA1D6145349426F52F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0332401C8DFB4C854B59CC0856BC417 /* libPods-RNCryptorDemo.a */,
+				3AAE93847C907996FBBFBD9D990F96EC /* libPods-RNCryptorDemoTests.a */,
+				93FE31F5966AF2149D4170B2A0C4488D /* libPods-RNCryptorDemoUITests.a */,
+				202747A4AB7D6725903FAEE9E2F55543 /* libRNCryptor-objc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		99BFB24029032C6158AA031826A88154 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA3704EFB829E4E1FD3DA00B17CA17A /* RNCryptor+Private.h in Headers */,
+				28C78D5BF12B882FC6121BCE2F33A9AE /* RNCryptor.h in Headers */,
+				6A9D15CE4DEBFEB3E4739AFE85ECEBBA /* RNCryptorEngine.h in Headers */,
+				BFDEFF6C3036E5E1E59406633722A5C5 /* RNDecryptor.h in Headers */,
+				F7D4FABED56F79C6717FD2F5851B1E09 /* RNEncryptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33594155F6D80E12C17C13D73B675DCF /* RNCryptor-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD3B377DBFF6BAD19434B2EE2229AF7 /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */;
+			buildPhases = (
+				AE84AC772034FE8D18DB84EF21175E35 /* Sources */,
+				9601F13B49935837284A7E51EBC915E9 /* Frameworks */,
+				99BFB24029032C6158AA031826A88154 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RNCryptor-objc";
+			productName = "RNCryptor-objc";
+			productReference = 202747A4AB7D6725903FAEE9E2F55543 /* libRNCryptor-objc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7E9F8072E228CDBC185A1287F7B93421 /* Pods-RNCryptorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578D9C79B9FBC950D2FFD22EB0F0BC98 /* Build configuration list for PBXNativeTarget "Pods-RNCryptorDemoTests" */;
+			buildPhases = (
+				6D4C3B0534ADAAA899226BBE5F9056CE /* Sources */,
+				15EB2510BCB8BD9A1DB1F8BE0CAB944F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759D9B9EEE8660C1DAB16436125C63F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-RNCryptorDemoTests";
+			productName = "Pods-RNCryptorDemoTests";
+			productReference = 3AAE93847C907996FBBFBD9D990F96EC /* libPods-RNCryptorDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		865D60AD11841E43F04990FF4EA13FB7 /* Pods-RNCryptorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156F2DA6712231EB933841F6CD76CE09 /* Build configuration list for PBXNativeTarget "Pods-RNCryptorDemoUITests" */;
+			buildPhases = (
+				B8BFE04D290AA6034969B146E90A43B0 /* Sources */,
+				940601220C97A09292F1C913053B46BE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29FD91317F068E5BA398012C0422E2E /* PBXTargetDependency */,
+			);
+			name = "Pods-RNCryptorDemoUITests";
+			productName = "Pods-RNCryptorDemoUITests";
+			productReference = 93FE31F5966AF2149D4170B2A0C4488D /* libPods-RNCryptorDemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DEEE436BA3962D6F7246977E53AC368A /* Pods-RNCryptorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15F57EDB81D07118813335161E4AF887 /* Build configuration list for PBXNativeTarget "Pods-RNCryptorDemo" */;
+			buildPhases = (
+				13DA8752F11BD9901D138CFF372255F9 /* Sources */,
+				8BD549733EC1468136BF620DD6AD9502 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0475F7800FC496D5D7EACE4E7525E1F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-RNCryptorDemo";
+			productName = "Pods-RNCryptorDemo";
+			productReference = C0332401C8DFB4C854B59CC0856BC417 /* libPods-RNCryptorDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F88C70E650995DA1D6145349426F52F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEEE436BA3962D6F7246977E53AC368A /* Pods-RNCryptorDemo */,
+				7E9F8072E228CDBC185A1287F7B93421 /* Pods-RNCryptorDemoTests */,
+				865D60AD11841E43F04990FF4EA13FB7 /* Pods-RNCryptorDemoUITests */,
+				33594155F6D80E12C17C13D73B675DCF /* RNCryptor-objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13DA8752F11BD9901D138CFF372255F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9282381D3BD7FE6D7FC4B605BDF10491 /* Pods-RNCryptorDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4C3B0534ADAAA899226BBE5F9056CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79334035769B93C89D26377E47CCC50 /* Pods-RNCryptorDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE84AC772034FE8D18DB84EF21175E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0B76C1302EC8A19A6E4C83D3D38E09 /* RNCryptor-objc-dummy.m in Sources */,
+				04FC12D3D0374CAC8E9909ECAFD22C2E /* RNCryptor.m in Sources */,
+				C634117E18F047C9C8A4CF3ACBB1AA12 /* RNCryptorEngine.m in Sources */,
+				41A4BCBCB51DA3646107CF7F735DAFAB /* RNDecryptor.m in Sources */,
+				D3F0D3CDF5A47EC6D1A2BE3EA792D5E8 /* RNEncryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8BFE04D290AA6034969B146E90A43B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9282634515FEC54C7787F79D5D5130AC /* Pods-RNCryptorDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0475F7800FC496D5D7EACE4E7525E1F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RNCryptor-objc";
+			target = 33594155F6D80E12C17C13D73B675DCF /* RNCryptor-objc */;
+			targetProxy = 3D1D556B7191E82A6DB99174DE28E0CC /* PBXContainerItemProxy */;
+		};
+		759D9B9EEE8660C1DAB16436125C63F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RNCryptorDemo";
+			target = DEEE436BA3962D6F7246977E53AC368A /* Pods-RNCryptorDemo */;
+			targetProxy = FADA4D07C5926A20621BAC53EF26E104 /* PBXContainerItemProxy */;
+		};
+		F29FD91317F068E5BA398012C0422E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RNCryptorDemo";
+			target = DEEE436BA3962D6F7246977E53AC368A /* Pods-RNCryptorDemo */;
+			targetProxy = 20979B3DABE47A5AC1598673B75D73C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D109B07E4F48EA08AD2349ADA68EE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D58186D080DCB42F58392737BBDA24F /* Pods-RNCryptorDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		422731C4D1966C985CB42AD2B9259C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC32289921DA9BA5B5556FCE353FD722 /* Pods-RNCryptorDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		560E5C85C073B878E166636347442E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5BAC93E2400790F2AD013419590FEC6 /* Pods-RNCryptorDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8EED4767EB68284BAD045C5A01669FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CAB5F291EADA0DA2D8BB2C7B1F45D92 /* Pods-RNCryptorDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E45EA7C238B4A3F81D52A9900260746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B997F89226E599D8D6693B3E13FC0794 /* RNCryptor-objc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RNCryptor_objc;
+				PRODUCT_NAME = "RNCryptor-objc";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB936C993334F7788450326B3BA785D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD0F175C7AA444901FBA787F1DE2E244 /* Pods-RNCryptorDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D64FDB112ADE716AF79DD227B3042D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B997F89226E599D8D6693B3E13FC0794 /* RNCryptor-objc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RNCryptor_objc;
+				PRODUCT_NAME = "RNCryptor-objc";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D74F1E156EDCACF32112E487D2A6382B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5CB4E5C69959F0C2E8755CC84097D6C /* Pods-RNCryptorDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CD3B377DBFF6BAD19434B2EE2229AF7 /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64FDB112ADE716AF79DD227B3042D61 /* Debug */,
+				9E45EA7C238B4A3F81D52A9900260746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		156F2DA6712231EB933841F6CD76CE09 /* Build configuration list for PBXNativeTarget "Pods-RNCryptorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422731C4D1966C985CB42AD2B9259C93 /* Debug */,
+				8EED4767EB68284BAD045C5A01669FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15F57EDB81D07118813335161E4AF887 /* Build configuration list for PBXNativeTarget "Pods-RNCryptorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB936C993334F7788450326B3BA785D4 /* Debug */,
+				560E5C85C073B878E166636347442E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578D9C79B9FBC950D2FFD22EB0F0BC98 /* Build configuration list for PBXNativeTarget "Pods-RNCryptorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74F1E156EDCACF32112E487D2A6382B /* Debug */,
+				1D109B07E4F48EA08AD2349ADA68EE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
